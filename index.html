@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <meta name="apple-mobile-web-app-capable" content="yes" /-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>lynx periodiek systeem</title>
+    <meta name="description" content="meta-content">
+
+    <link rel="stylesheet" href="css/elementen.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/element_obj.js"></script>
+    <script src="js/elementen.js"></script>
+
+    <body>
+        <div id="container">
+
+            <h1>Periodiek systeem</h1>
+
+            <table id="systeemBox">
+                <tr>
+                    <!-- + + + + + + + + + + groepen + + + + + + + + + + -->
+                    <td class="nm sp"></td>
+                    <td class="bl grp" title="grp1">1</td>
+                    <td class="bl grp" title="grp2">2</td>
+                    <td class="bl grp" title="grp3">3</td>
+                    <td class="bl grp" title="grp4">4</td>
+                    <td class="bl grp" title="grp5">5</td>
+                    <td class="bl grp" title="grp6">6</td>
+                    <td class="bl grp" title="grp7">7</td>
+                    <td class="bl grp" title="grp8">8</td>
+                    <td class="bl grp" title="grp9">9</td>
+                    <td class="bl grp" title="grp10">10</td>
+                    <td class="bl grp" title="grp11">11</td>
+                    <td class="bl grp" title="grp12">12</td>
+                    <td class="bl grp" title="grp13">13</td>
+                    <td class="bl grp" title="grp14">14</td>
+                    <td class="bl grp" title="grp15">15</td>
+                    <td class="bl grp" title="grp16">16</td>
+                    <td class="bl grp" title="grp17">17</td>
+                    <td class="bl grp" title="grp18">18</td>
+                </tr>
+                <tr>
+                    <!-- + + + + + + + + + + typen + + + + + + + + + + -->
+                    <td class="nm sp"></td>
+                    <td class="bl tp"title="grpI">I</td>
+                    <td class="bl tp"title="grpII">II</td>
+                    <td class="bl tp sp" colspan="8"></td>
+                    <td class="bl tp grp" title="grpLanthanides">Lant.</td>
+                    <td class="bl tp grp" title="grpActinides">Acti.</td>
+                    <td class="bl tp"title="grpIII">III</td>
+                    <td class="bl tp"title="grpIV">IV</td>
+                    <td class="bl tp"title="grpV">V</td>
+                    <td class="bl tp"title="grpVI">VI</td>
+                    <td class="bl tp"title="grpVII">VII</td>
+                    <td class="bl tp"title="grpVIII">VIII</td>
+                </tr>
+
+                <tr>
+                    <td class="el h12 sp" colspan="20"></td>
+                </tr>
+
+                <tr id="periode1">
+                    <!-- + + + + + + + + + + periode 1 + + + + + + + + + + -->
+                    <td class="nm sp p1">1</td>
+                    <td class="el t6 g1" id="1"><div>1</div><div>H</div></td>
+                    <td class="el sp" colspan="16"></td>
+                    <td class="el t8 g18" id="2"><div>2</div><div>He</div></td>
+
+                </tr>
+
+                <tr id="periode2">
+                    <!-- + + + + + + + + + + periode 2 + + + + + + + + + + -->
+                    <td class="nm sp p2">2</td>
+                    <td class="el t1 g1" id="3"><div>3</div><div>Li</div></td>
+                    <td class="el t2 g2" id="4"><div>4</div><div>Be</div></td>
+                    <td class="el sp" colspan="9"><td>
+                    <td class="el t5 g13" id="5"><div>5</div><div>B</div></td>
+                    <td class="el t6 g14" id="6"><div>6</div><div>C</div></td>
+                    <td class="el t6 g15" id="7"><div>7</div><div>N</div></td>
+                    <td class="el t6 g16" id="8"><div>8</div><div>O</div></td>
+                    <td class="el t7 g17" id="9"><div>9</div><div>F</div></td>
+                    <td class="el t8 g18" id="10"><div>10</div><div>Ne</div></td>
+                </tr>
+
+                <tr id="periode3">
+                    <!-- + + + + + + + + + + periode 3 + + + + + + + + + + -->
+                    <td class="nm sp p3">3</td>
+                    <td class="el t1 g1" id="11"><div>11</div><div>Na</div></td>
+                    <td class="el t2 g2" id="12"><div>12</div><div>Mg</div></td>
+                    <td class="el sp" colspan="9"><td>
+                    <td class="el t4 g13" id="13"><div>13</div><div>Al</div></td>
+                    <td class="el t5 g14" id="14"><div>14</div><div>Si</div></td>
+                    <td class="el t6 g15" id="15"><div>15</div><div>P</div></td>
+                    <td class="el t6 g16" id="16"><div>16</div><div>S</div></td>
+                    <td class="el t7 g17" id="17"><div>17</div><div>Cl</div></td>
+                    <td class="el t8 g18" id="18"><div>18</div><div>Ar</div></td>
+                </tr>
+
+                <tr id="periode4">
+                    <!-- + + + + + + + + + + periode 4 + + + + + + + + + + -->
+                    <td class="nm sp p4">4</td>
+                    <td class="el t1 g1" id="19"><div>19</div><div>K</div></td>
+                    <td class="el t2 g2" id="20"><div>20</div><div>Ca</div></td>
+                    <td class="el t3 g3" id="21"><div>21</div><div>Sc</div></td>
+                    <td class="el t3 g4" id="22"><div>22</div><div>Ti</div></td>
+                    <td class="el t3 g5" id="23"><div>23</div><div>V</div></td>
+                    <td class="el t3 g6" id="24"><div>24</div><div>Cr</div></td>
+                    <td class="el t3 g7" id="25"><div>25</div><div>Mn</div></td>
+                    <td class="el t3 g8" id="26"><div>26</div><div>Fe</div></td>
+                    <td class="el t3 g9" id="27"><div>27</div><div>Co</div></td>
+                    <td class="el t3 g10" id="28"><div>28</div><div>Ni</div></td>
+                    <td class="el t3 g11" id="29"><div>29</div><div>Cu</div></td>
+                    <td class="el t3 g12" id="30"><div>30</div><div>Zn</div></td>
+                    <td class="el t4 g13" id="31"><div>31</div><div>Ga</div></td>
+                    <td class="el t5 g14" id="32"><div>32</div><div>Ge</div></td>
+                    <td class="el t5 g15" id="33"><div>33</div><div>As</div></td>
+                    <td class="el t6 g16" id="34"><div>34</div><div>Se</div></td>
+                    <td class="el t7 g17" id="35"><div>35</div><div>Br</div></td>
+                    <td class="el t8 g18" id="36"><div>36</div><div>Kr</div></td>
+                </tr>
+
+                <tr id="periode5">
+                    <!-- + + + + + + + + + + periode 5 + + + + + + + + + + -->
+                    <td class="nm sp p5">5</td>
+                    <td class="el t1 g1" id="37"><div>37</div><div>Rb</div></td>
+                    <td class="el t2 g2" id="38"><div>38</div><div>Sr</div></td>
+                    <td class="el t3 g3" id="39"><div>39</div><div>Y</div></td>
+                    <td class="el t3 g4" id="40"><div>40</div><div>Zr</div></td>
+                    <td class="el t3 g5" id="41"><div>41</div><div>Nb</div></td>
+                    <td class="el t3 g6" id="42"><div>42</div><div>Mo</div></td>
+                    <td class="el t3 g7" id="43"><div>43</div><div>Tc</div></td>
+                    <td class="el t3 g8" id="44"><div>44</div><div>Ru</div></td>
+                    <td class="el t3 g9" id="45"><div>45</div><div>Rh</div></td>
+                    <td class="el t3 g10" id="46"><div>46</div><div>Pd</div></td>
+                    <td class="el t3 g11" id="47"><div>47</div><div>Ag</div></td>
+                    <td class="el t3 g12" id="48"><div>48</div><div>Cd</div></td>
+                    <td class="el t4 g13" id="49"><div>49</div><div>In</div></td>
+                    <td class="el t4 g14" id="50"><div>50</div><div>Sn</div></td>
+                    <td class="el t5 g15" id="51"><div>51</div><div>Sb</div></td>
+                    <td class="el t5 g16" id="52"><div>52</div><div>Te</div></td>
+                    <td class="el t7 g17" id="53"><div>53</div><div>I</div></td>
+                    <td class="el t8 g18" id="54"><div>54</div><div>Xe</div></td>
+                </tr>
+
+                <tr id="periode6">
+                    <!-- + + + + + + + + + + periode 6 + + + + + + + + + + -->
+                    <td class="nm sp p6">6</td>
+                    <td class="el t1 g1" id="55"><div>55</div><div>Cs</div></td>
+                    <td class="el t2 g2" id="56"><div>56</div><div>Ba</div></td>
+                    <td class="el t0 p8 grp lant"title="grpLant">Lant.</td>
+                    <td class="el t3 g4" id="72"><div>72</div><div>Hf</div></td>
+                    <td class="el t3 g5" id="73"><div>73</div><div>Ta</div></td>
+                    <td class="el t3 g6" id="74"><div>74</div><div>W</div></td>
+                    <td class="el t3 g7" id="75"><div>75</div><div>Re</div></td>
+                    <td class="el t3 g8" id="76"><div>76</div><div>Os</div></td>
+                    <td class="el t3 g9" id="77"><div>77</div><div>Ir</div></td>
+                    <td class="el t3 g10" id="78"><div>78</div><div>Pt</div></td>
+                    <td class="el t3 g11" id="79"><div>79</div><div>Au</div></td>
+                    <td class="el t3 g12" id="80"><div>80</div><div>Hg</div></td>
+                    <td class="el t4 g13" id="81"><div>81</div><div>Tl</div></td>
+                    <td class="el t4 g14" id="82"><div>82</div><div>Pb</div></td>
+                    <td class="el t4 g15" id="83"><div>83</div><div>Bi</div></td>
+                    <td class="el t5 g16" id="84"><div>84</div><div>Po</div></td>
+                    <td class="el t7 g17" id="85"><div>85</div><div>At</div></td>
+                    <td class="el t8 g18" id="86"><div>86</div><div>Rn</div></td>
+                </tr>
+
+                <tr id="periode7">
+                    <!-- + + + + + + + + + + periode 7 + + + + + + + + + + -->
+                    <td class="nm sp p7">7</td>
+                    <td class="el t1 g1" id="87"><div>87</div><div>Fr</div></td>
+                    <td class="el t2 g2" id="88"><div>88</div><div>Ra</div></td>
+                    <td class="el t0 p9 grp acti"title="grpActi">Acti.</td>
+                    <td class="el t3 g4" id="104"><div>104</div><div>Rf</div></td>
+                    <td class="el t3 g5" id="105"><div>105</div><div>Db</div></td>
+                    <td class="el t3 g6" id="106"><div>106</div><div>Sg</div></td>
+                    <td class="el t3 g7" id="107"><div>107</div><div>Bh</div></td>
+                    <td class="el t3 g8" id="108"><div>108</div><div>Hs</div></td>
+                    <td class="el t3 g9" id="109"><div>109</div><div>Mt</div></td>
+                    <td class="el t3 g10" id="110"><div>110</div><div>Ds</div></td>
+                    <td class="el t3 g11" id="111"><div>111</div><div>Rg</div></td>
+                    <td class="el t3 g12" id="112"><div>112</div><div>Cn</div></td>
+                    <td class="el t4 g13" id="113"><div>113</div><div>NhR</div></td>
+                    <td class="el t4 g14" id="114"><div>114</div><div>Fl</div></td>
+                    <td class="el t4 g15" id="115"><div>115</div><div>Mc</div></td>
+                    <td class="el t4 g16" id="116"><div>116</div><div>Lv</div></td>
+                    <td class="el t7 g17" id="117"><div>117</div><div>Ts</div></td>
+                    <td class="el t8 g18" id="118"><div>118</div><div>Og</div></td>
+                </tr>
+
+                <tr>
+                    <td class="el h12 sp" colspan="20"><td>
+                </tr>
+
+                <tr id="periode8">
+                    <!-- + + + + + + + + + + Lanthanides + + + + + + + + + + -->
+                    <td class="nm sp"></td>
+                    <td class="el sp" colspan="2"><td>
+                    <td class="el t9 g30" id="57"><div>57</div><div>La</div></td>
+                    <td class="el t9 g30" id="58"><div>58</div><div>Ce</div></td>
+                    <td class="el t9 g30" id="59"><div>59</div><div>Pr</div></td>
+                    <td class="el t9 g30" id="60"><div>60</div><div>Nd</div></td>
+                    <td class="el t9 g30" id="61"><div>61</div><div>Pm</div></td>
+                    <td class="el t9 g30" id="62"><div>62</div><div>Sm</div></td>
+                    <td class="el t9 g30" id="63"><div>63</div><div>Eu</div></td>
+                    <td class="el t9 g30" id="64"><div>64</div><div>Gd</div></td>
+                    <td class="el t9 g30" id="65"><div>65</div><div>Tb</div></td>
+                    <td class="el t9 g30" id="66"><div>66</div><div>Dy</div></td>
+                    <td class="el t9 g30" id="67"><div>67</div><div>Ho</div></td>
+                    <td class="el t9 g30" id="68"><div>68</div><div>Er</div></td>
+                    <td class="el t9 g30" id="69"><div>69</div><div>Tm</div></td>
+                    <td class="el t9 g30" id="70"><div>70</div><div>Yb</div></td>
+                    <td class="el t9 g30" id="71"><div>71</div><div>Lu</div></td>
+                </tr>
+
+                <tr id="periode9">
+                    <!-- + + + + + + + + + + Actanide + + + + + + + + + + -->
+                    <td class="nm sp"></td>
+                    <td class="el sp" colspan="2"><td>
+                    <td class="el t10 g31" id="89"><div>89</div><div>Ac</div></td>
+                    <td class="el t10 g31" id="90"><div>90</div><div>Th</div></td>
+                    <td class="el t10 g31" id="91"><div>91</div><div>Pa</div></td>
+                    <td class="el t10 g31" id="92"><div>92</div><div>U</div></td>
+                    <td class="el t10 g31" id="93"><div>93</div><div>Np</div></td>
+                    <td class="el t10 g31" id="94"><div>94</div><div>Pu</div></td>
+                    <td class="el t10 g31" id="95"><div>95</div><div>Am</div></td>
+                    <td class="el t10 g31" id="96"><div>96</div><div>Cm</div></td>
+                    <td class="el t10 g31" id="97"><div>97</div><div>Bk</div></td>
+                    <td class="el t10 g31" id="98"><div>98</div><div>Cf</div></td>
+                    <td class="el t10 g31" id="99"><div>99</div><div>Es</div></td>
+                    <td class="el t10 g31" id="100"><div>100</div><div>Fm</div></td>
+                    <td class="el t10 g31" id="101"><div>101</div><div>Md</div></td>
+                    <td class="el t10 g31" id="102"><div>102</div><div>No</div></td>
+                    <td class="el t10 g31" id="103"><div>103</div><div>Lr</div></td>
+                </tr>
+            </table>
+
+            <div id="types">
+                <div class="typeRegelBoxL">
+                    <div class="typeRegel">
+                        <div class="typeBox t1">&nbsp;</div> &nbsp; Alkali metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t2">&nbsp;</div> &nbsp; Alkali aard-metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t3">&nbsp;</div> &nbsp; Overgangs metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t9">&nbsp;</div> &nbsp; Lanthanides</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t10">&nbsp;</div> &nbsp; Actinides</div>
+                </div>
+                <div class="typeRegelBoxR">
+                    <div class="typeRegel">
+                        <div class="typeBox t4">&nbsp;</div> &nbsp; Andere metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t5">&nbsp;</div> &nbsp; Half-metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t6">&nbsp;</div> &nbsp; Niet-metalen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t7">&nbsp;</div> &nbsp; Halogenen</div>
+                    <div class="typeRegel">
+                        <div class="typeBox t8">&nbsp;</div> &nbsp; Edel-gassen</div>
+                </div>
+            </div>
+
+            <form id="formSet" class="formItems">
+                <div class="formregel"><!-- + + + + + formregel + + + + + -->
+                     <div class="formitem">
+                        <input type="checkbox" id="setNum" checked="checked"><span class="formlabel">Nummers</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="setSymbol" checked="checked"><span class="formlabel">Symbolen</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="setColor" checked="checked"><span class="formlabel">Kleuren</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="setBlanco"><span class="formlabel">Niets</span>
+                    </div>
+                </div><!-- einde formregel -->
+            </form>
+
+            <form id="formCases" class="formItems">
+                <div class="formregel"><!-- + + + + + formregel + + + + + -->
+                     <div class="formitem">
+                        <input type="checkbox" id="doGroep" checked="checked"><span class="formlabel">Groepen</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="doPeriode" checked="checked"><span class="formlabel">Perioden</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="doType" checked="checked"><span class="formlabel">Soorten</span>
+                    </div>
+                    <div class="formitem">
+                        <input type="checkbox" id="doSymbol"><span class="formlabel">Symbolen</span>
+                    </div>
+                    
+                </div><!-- einde formregel -->
+            </form>
+
+            <img src="images/pijlen_lant_acti.png" width="52" height="217" alt="pijlen lanthanides en actinides"  id="pijlen_lant_acti" />
+
+            <div id="infoBox">Info</div>
+
+
+            <div id="footer">
+                <div id="version"></div>
+            </div>
+        </div>
+    </body>
+
+</html>

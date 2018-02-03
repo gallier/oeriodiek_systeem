@@ -1,0 +1,173 @@
+body {
+	margin:  0;
+	padding:  0;
+	font: 14px/22px Verdana, Helvetica, Arial, sans-serif;
+}
+#container {
+	width:  1024px;
+}
+#version {
+	position:  relative;
+	top: -240px;
+	padding-top: 12px;
+	font: 10px/12px Verdana, Helvetica, Arial, sans-serif;
+	color:  #999;
+	text-align: center;
+}
+h1 {
+	font: 24px/28px Verdana, Helvetica, Arial, sans-serif;
+	text-align:  center;
+	color:  #333;
+	margin:  5px 0;
+}
+
+.el, .bl {
+	width:  48px;
+	height:  48px;
+	border:  1px solid #666;
+	margin:  1px;
+	padding: 0;
+	text-align:  center;
+	cursor:  pointer;
+}
+.sp {
+	cursor:  pointer;
+}
+th .el, th .bl {
+	height:  24px;
+	border:  1px solid #ccc;
+
+}
+.el div:first-child {
+	margin:  -8px 0 0 2px;
+	height:  12px;
+	font: 10px/12px Verdana, Helvetica, Arial, sans-serif;
+	text-align:  left;
+	color:  #fff;
+	visibility: visible;
+}
+.nm {
+	width: 24px;
+	height:  48px;
+	border:  none;
+	text-align:  center;
+	color:  #999;
+}
+
+.grp, .tp {
+	height:  24px;
+	border:  1px solid #ccc;
+	font: 14px/14px Verdana, Helvetica, Arial, sans-serif;
+}
+.sp, .inv {
+	border:  none;
+}
+.h12 {
+	height:  12px;
+}
+
+#types {
+	position: absolute;
+	top: 154px;
+	left:  176px;
+	cursor:  pointer;
+}
+.typeRegelBoxL {
+	position:  relative;
+	top:  0;
+	left: 0;
+	width:  200px;
+	height: 120px;
+	clear:  left;
+}
+.typeRegelBoxR {
+	position:  relative;
+	top:  -120px;
+	left: 220px
+}
+.typeRegel {
+	width:  100%;
+	height: 20px;
+}
+.typeBox {
+	float:  left;
+	width:  12px;
+	height:  12px;
+	margin-top:  4px;
+	border:  1px solid #ccc;
+}
+
+.t1 {
+	background: #0b7;
+}
+.t2 {
+	background: #0aa;
+}
+.t3 {
+	background: #48f;
+}
+.t4 {
+	background: #76f;
+}
+.t5 {
+	background: #b4d;
+}
+.t6 {
+	background:  #f35;
+}
+.t7 {
+	background:  #f73;
+}
+.t8 {
+	background:  #fa3;
+}
+.t9 {
+	background: #66a9ff;
+}
+.t10 {
+	background: #88c6ff;
+}
+.lant {
+	color: #66a6ff;
+	border-color: #66a6ff;
+}
+.acti {
+	color: #88c0ff;
+	border-color: #88c0ff;
+}
+#pijlen_lant_acti {
+	position:  relative;
+	top:  -299px;
+	left:  133px;
+}
+td[title=grpLanthanides], td[title=grpActinides] {
+	position:  relative;
+	left:  -15px;
+}
+.formItems {
+	width:  970px;
+	height:  24px;
+	margin:  10px 0 10px 30px;
+	border-bottom:  1px solid #ccc;
+}
+.formitem {
+	float:  left;
+	width:  200px;
+}
+.formlabel {
+	margin-left:  10px;
+}
+#infoBox {
+	position:  absolute;
+	top:  250px;
+	left:  176px;
+	width:  220px;
+	height:  64px;
+	border:  double 3px #666;
+	background: #f6f6f9;
+	padding:  5px;
+	display:  none;
+}
+.grey {
+	color:  #999;
+}
